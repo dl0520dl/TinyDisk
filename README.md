@@ -13,3 +13,5 @@ SQLite3
 文件的上传/下载/移动/分享/重命名...
 ![image](https://github.com/dl0520dl/TinyDisk/assets/143736335/d9390287-f7c4-410d-af52-9c4993c88bf8)
 
+## tips
+每一个用户注册时都会生成一个同名的根文件夹，其位置在 盘符:\Qt安装路径\build-tcpServer-Desktop_Qt_5_14_2_MinGW_32_bit-Debug中，后续该用户所有的网盘文件/文件夹都存储在此。
