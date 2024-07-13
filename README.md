@@ -15,14 +15,14 @@ QT：5.14.2
 ![image](https://github.com/dl0520dl/TinyDisk/assets/143736335/d9390287-f7c4-410d-af52-9c4993c88bf8)
 
 ## 运行方法：
-1.在tcpServer下opedb.cpp中，把cloud.db文件改成自己的路径：
+#### 1.在tcpServer下opedb.cpp中，把cloud.db文件改成自己的路径：
 ![image](https://github.com/user-attachments/assets/3deb9bdb-261d-4346-a4a1-975f33fd6f30)
-2.先启动tcpServer（右击选择运行），再启动tcpClient。
-3.cloud.db数据库中已经创建了几个用户，可直接登录，例如：
+#### 2.先启动tcpServer（右击选择运行），再启动tcpClient。
+#### 3.cloud.db数据库中已经创建了几个用户，可直接登录，例如：
 用户名：jack 密码：jack
 用户名：tom 密码：tom
 用户名：sam 密码：sam
 
 ## Tips
-1.每一个用户注册时都会生成一个同名的根文件夹，其位置在 盘符:\Qt安装路径\build-tcpServer-Desktop_Qt_5_14_2_MinGW_32_bit-Debug中，后续该用户所有的网盘文件/文件夹都存储在此。
-2.如要测试私聊/好友群发/分享文件等交互性功能，需要同时启动多个客户端并登录后才能实现。
+#### 1.每一个用户注册时都会生成一个同名的根文件夹，其位置在 盘符:\Qt安装路径\build-tcpServer-Desktop_Qt_5_14_2_MinGW_32_bit-Debug中，后续该用户所有的网盘文件/文件夹都存储在此。
+#### 2.如要测试私聊/好友群发/分享文件等交互性功能，需要同时启动多个客户端并登录后才能实现。
